@@ -4,7 +4,7 @@ email: priyanka.iyr@gmail.com
 url: https://github.com/priyankaB99/priyankaB99.github.io
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "Programming - Business - Arts"
+skills: "I'm a developer, finance student, dancer, and singer."
 meta_author: Iyer Priyanka
 
 # Google webmaster tools
@@ -31,7 +31,8 @@ color:
   secondary-dark: 233140 #A2122F
 # Font settings
 fonts:
-  heading: 'Raleway',sans-serif
+  primary: "'Raleway',sans-serif"
+  secondary: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace"
   body: 
 
 # Footer settings

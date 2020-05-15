@@ -100,7 +100,7 @@ header .container {
 .intro {
     font-size: 1em;
     color: rgb(100, 255, 218);
-    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+    font-family: {{ site.fonts.secondary }};
 }
 header img {
     margin: 0 auto 20px;
@@ -108,7 +108,7 @@ header img {
 .img {
     width: 25%;
     display: inline-block;
-    margin-left: 5em;
+    margin-left: 10%;
 }
 /* .img-responsive {
     border-radius: 2em;
@@ -117,7 +117,7 @@ header img {
     width: 50%;
     display: inline-block;
     margin-bottom: 10%;
-    margin-left: 10%;
+    margin-left: 7%;
     vertical-align: bottom;
     text-align: left;
 }
@@ -179,7 +179,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
+    font-family: {{ site.fonts.secondary }};
     font-weight: 500;
 }
 
@@ -385,7 +385,7 @@ footer .footer-above {
 }
 
 footer .footer-col {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 footer .footer-below {
