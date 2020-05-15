@@ -66,15 +66,18 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: rgb(4, 25, 56);
+    /* #{{ site.color.primary }}; */
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary }};
+    border-color: rgb(4, 25, 56);
+    /* #{{ site.color.secondary }}; */
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary }};
+    color: rgb(4, 25, 56);
+    /* #{{ site.color.secondary }}; */
     background-color: #fff;
 }
 
@@ -85,6 +88,9 @@ hr.star-primary:after {
 header {
     color: #fff;
     background-color: rgb(4, 25, 56);
+    /* background-image: url("../img/space_pic.jpg"); */
+    height: 100%;
+    width: 100%;
     /* background: #{{ site.color.primary }}; */
 }
 
@@ -207,7 +213,8 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: rgb(4, 25, 56);
+    /* #{{ site.color.primary }}; */
 }
 
 @media(max-width:767px) {
@@ -237,7 +244,9 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba({{ site.color.primary-rgb }},.9);
+    background: rgba(4, 25, 56,.9);
+    /* rgb(4, 25, 56);
+    rgba({{ site.color.primary-rgb }},.9); */
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -291,7 +300,8 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.primary }};
+    color: rgb(4, 25, 56);
+    /* #{{ site.color.primary }}; */
     background: #fff;
 }
 
@@ -344,7 +354,8 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }};
+    color: rgb(4, 25, 56);
+    /* #{{ site.color.primary }}; */
 }
 
 form .row:first-child .floating-label-form-group {
@@ -361,7 +372,8 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
+    background-color: rgb(4, 25, 56);
+    /* #{{ site.color.secondary }}; */
 }
 
 footer .footer-col {
@@ -370,7 +382,8 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: rgb(4, 25, 56);
+    /* #{{ site.color.secondary-dark }}; */
 }
 
 .btn-social {
