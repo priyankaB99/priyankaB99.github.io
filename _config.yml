@@ -27,8 +27,12 @@ bing_verify:
 color:
   primary: "4,25,56"
   primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
+  secondary: "4,25,56"    #2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
+# Font settings
+fonts:
+  heading: 'Raleway',sans-serif
+  body: 
 
 # Footer settings
 footer:

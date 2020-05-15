@@ -4,6 +4,8 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
 body {
     overflow-x: hidden;
 }
@@ -22,7 +24,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: rgb(100, 255, 218);
 }
 
 h1,
@@ -66,7 +68,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: rgb(4, 25, 56);
+    background-color: rgb({{ site.color.primary }});
     /* #{{ site.color.primary }}; */
 }
 
@@ -87,11 +89,8 @@ hr.star-primary:after {
 
 header {
     color: #fff;
-    background-color: rgb(4, 25, 56);
+    background-color: rgb({{ site.color.primary }});
     /* background-image: url("../img/space_pic.jpg"); */
-    height: 100%;
-    width: 100%;
-    /* background: #{{ site.color.primary }}; */
 }
 
 header .container {
@@ -99,7 +98,9 @@ header .container {
     padding-bottom: 50px;
 }
 .intro {
-    font-size: 1.5em;
+    font-size: 1em;
+    color: rgb(100, 255, 218);
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
 }
 header img {
     margin: 0 auto 20px;
@@ -109,33 +110,35 @@ header img {
     display: inline-block;
     margin-left: 5em;
 }
-.img-responsive {
+/* .img-responsive {
     border-radius: 2em;
-}
+} */
 .intro-text {
     width: 50%;
     display: inline-block;
     margin-bottom: 10%;
-    margin-left: 5%;
+    margin-left: 10%;
     vertical-align: bottom;
-    text-align: center;
+    text-align: left;
 }
 header .intro-text .name {
-    text-transform: uppercase;
-    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    /* text-transform: uppercase; */
+    font-family: Calibre, San Francisco, SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif;
+    /* 'Raleway', sans-serif; */
+    /* 'Source Sans Pro', Helvetica, Arial, sans-serif; */
     /* Calibre, San Francisco, SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif; */
     /* Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
     font-size: 1em;
-    font-weight: 500;
+    font-weight: 900;
+    letter-spacing: 2px;
 }
 
 header .intro-text .skills {
     font-size: 1em;
     font-weight: 300;
-    text-align: center;
 }
 
-@media(min-width:768px) {
+@media(min-width:700px) {
     header .container {
         padding-top: 150px;
         padding-bottom: 50px;
@@ -152,7 +155,7 @@ header .intro-text .skills {
 
 @media(min-width:400px) {
     .navbar-fixed-top {
-        padding: 8px 0;
+        padding: 5px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -176,15 +179,18 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-    /* Calibre, San Francisco, SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif; */
-    /* Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+    font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
     font-weight: 500;
 }
 
 .navbar-default {
-    background-color: rgba(4, 25, 56, 0.795);
+    background-color: rgba({{ site.color.primary }}, 0.795);
 }
+
+.navbar-default .navbar-brand,.navbar-default .navbar-nav > li > a {
+    color: rgb(100, 255, 218);
+}
+
 .navbar a:focus {
     outline: 0;
 }
@@ -193,8 +199,13 @@ header .intro-text .skills {
     letter-spacing: 1px;
 }
 
-.navbar .navbar-nav li a:focus {
+/* .navbar .navbar-nav li a:focus {
     outline: 0;
+} */
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ffff;
+    font-weight: bold;
 }
 
 .navbar-default,
@@ -213,8 +224,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: rgb(4, 25, 56);
-    /* #{{ site.color.primary }}; */
+    background: rgb({{ site.color.primary }});
 }
 
 @media(max-width:767px) {
@@ -244,7 +254,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(4, 25, 56,.9);
+    background: rgba({{ site.color.primary }},.9);
     /* rgb(4, 25, 56);
     rgba({{ site.color.primary-rgb }},.9); */
     -webkit-transition: all ease .5s;
@@ -300,8 +310,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: rgb(4, 25, 56);
-    /* #{{ site.color.primary }}; */
+    color: rgb({{ site.color.primary }});
     background: #fff;
 }
 
@@ -354,8 +363,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: rgb(4, 25, 56);
-    /* #{{ site.color.primary }}; */
+    color: rgb({{ site.color.primary }});
 }
 
 form .row:first-child .floating-label-form-group {
