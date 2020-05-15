@@ -31,9 +31,18 @@ color:
   secondary-dark: 233140 #A2122F
 # Font settings
 fonts:
-  primary: "'Raleway',sans-serif"
+  primary: "Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif"
   secondary: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace"
-  body: 
+  body: "'Merriweather', serif"
+
+  # Other Font Options
+  # "'Lora', serif"
+  # "'Merriweather', serif"
+  # "'Raleway',sans-serif"
+  # "'Lato','Helvetica Neue"'',Helvetica,Arial,sans-serif"
+  # "Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif"
+  # "'Source Sans Pro', Helvetica, Arial, sans-serif"
+  # "Calibre, San Francisco, SF Pro Text, -apple-system, system-ui, BlinkMacSystemFont, Roboto, Helvetica Neue, Segoe UI, Arial, sans-serif"
 
 # Footer settings
 footer:
