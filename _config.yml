@@ -27,13 +27,13 @@ bing_verify:
 color:
   primary: "4,25,56"
   primary-rgb: "24,288,156" #"128,179,255"
-  secondary: "4,25,56"    #2c3e50 #FD6E8A
+  secondary: "100,255,218"    #2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
 # Font settings
 fonts:
   primary: "Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif"
   secondary: "SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace"
-  body: "'Merriweather', serif"
+  body: "Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif"
 
   # Other Font Options
   # "'Lora', serif"
