@@ -48,16 +48,16 @@ body {
 
 .code-text {
     color: rgb(100, 255, 218);
-    /* color: rgb(35, 95, 81); */
     font-family: {{ site.fonts.secondary }};
     letter-spacing: 1px;
 }
 
 .subtext {
     font-family: {{ site.fonts.primary }};
+    /* font-family: {{ site.fonts.secondary }}; */
     color: rgb({{ site.color.primary }});
     font-size: 14px;
-    font-weight: 550;
+    font-weight: 575;
 }
 
 /* hr.star-light,
