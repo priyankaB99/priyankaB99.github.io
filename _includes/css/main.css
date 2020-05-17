@@ -214,7 +214,7 @@ header .intro-text .skills {
         font-family: {{ site.fonts.primary }};
         font-weight: 600;
         letter-spacing: 2px;
-        font-size: 5rem;
+        font-size: 4rem;
     }
     header .intro-text .skills {
         font-weight: 300;
