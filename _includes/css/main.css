@@ -89,6 +89,24 @@ ul {
     color: #fff;   
 }
 
+.big-button-background {
+    padding: 2rem 3rem;
+    border: solid 1px rgb({{ site.color.primary }});
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: {{ site.fonts.secondary }};
+    color: rgb({{ site.color.primary }});   
+}
+
+.big-button-background:hover, .big-button-background:focus  {
+    border: solid 1px rgb({{ site.color.primary }});
+    background-color: rgb({{ site.color.primary }});
+    color: #fff;
+}
+
 /* hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -342,7 +360,7 @@ section.success.container {
     color: rgb({{ site.color.primary }});
     font-size: 15px; 
     text-align: center;
-    
+
     display: block;
     position: relative;
     margin: 0 auto;
@@ -419,6 +437,33 @@ section.success.container {
     border: solid 2px #fff;
     color: rgb({{ site.color.primary }});
     background: #fff;
+}
+
+.btn-lg:hover,
+.btn-lg:focus,
+.btn-lg:active,
+.btn-lg.active {
+    border: solid 2px #fff;
+    color: rgb({{ site.color.primary }});
+    background: #fff;
+} */
+
+/* .form-button {
+    border: solid 1px rgb({{ site.color.primary }});
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: {{ site.fonts.secondary }};
+}
+.form-button:hover, .form-button:focus  {
+    border: solid 1px rgb({{ site.color.primary }});
+    background-color: rgb({{ site.color.primary }});
+    color: #fff;
+} */
+.form-control {
+    height: 30px;
 }
 
 .floating-label-form-group {
