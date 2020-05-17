@@ -73,14 +73,14 @@ ul {
 }
 
 .small-button {
-    padding: 1rem;
-    margin-top: 2rem;
-    border: solid 3px rgb({{ site.color.primary }});
-    background-color: rgb({{ site.color.primary }});
+    /* padding: 1rem;
+    margin-top: 2rem; */
+    border: solid 1px rgb({{ site.color.secondary }});
+    /* background-color: rgb({{ site.color.primary }}); */
     border-radius: 10px;
     text-align: center;
     font-family: {{ site.fonts.secondary }};
-    font-size: 18px;
+    /* font-size: 18px; */
     color: #fff;
 }
 
@@ -165,7 +165,7 @@ header .intro-text .name {
     font-family: {{ site.fonts.primary }};
     font-weight: 600;
     letter-spacing: 2px;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 header .intro-text .skills {
     font-weight: 300;
@@ -190,7 +190,7 @@ header .intro-text .skills {
 
 @media(min-width:400px) {
     .navbar-fixed-top {
-        padding: 5px 0;
+        padding: 3px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -204,7 +204,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 5px 0;
+        padding: 3px 0;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
@@ -220,6 +220,10 @@ header .intro-text .skills {
 
 .navbar-default {
     background-color: rgba({{ site.color.primary }}, 0.795);
+}
+
+.nav > li {
+    margin: 0 .5rem;
 }
 
 .navbar-default .navbar-brand,.navbar-default .navbar-nav > li > a {
@@ -300,6 +304,17 @@ section.success.container {
     section.first {
         padding-top: 75px;
     }
+    .col-1 {
+        display: inline-block;
+        width: 95%;
+        vertical-align: top;
+    }
+    .col-2 {
+        display: inline-block;
+        margin-top: 2rem;
+        width: 95%;
+        vertical-align: top;
+    }    
 }
 
 #portfolio {
