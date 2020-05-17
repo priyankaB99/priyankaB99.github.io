@@ -152,9 +152,9 @@ header img {
     margin-left: 10%;
     vertical-align: top;
 }
-/* .img-responsive {
+.img-responsive {
     border-radius: 2em;
-} */
+}
 .intro-text {
     width: 56%;
     display: inline-block;
@@ -165,7 +165,7 @@ header img {
 }
 header .intro-text .name {
     font-family: {{ site.fonts.primary }};
-    font-size: 1em;
+    font-size: 3rem;
     font-weight: 600;
     letter-spacing: 2px;
 }
@@ -228,17 +228,17 @@ header .intro-text .skills {
     color: rgb(100, 255, 218);
 }
 
-/* .navbar a:focus {
+.navbar a:focus {
     outline: 0;
-} */
+}
 
 .navbar .navbar-nav {
     letter-spacing: 1px;
 }
 
-/* .navbar .navbar-nav li a:focus {
+.navbar .navbar-nav li a:focus {
     outline: 0;
-} */
+}
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-brand:hover {
     color: #ffff;
