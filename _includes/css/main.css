@@ -78,7 +78,6 @@ ul {
     background-color: rgb({{ site.color.primary }});
     border-radius: 10px;
     text-align: center;
-    width: 20%;
     font-family: {{ site.fonts.secondary }};
     font-size: 18px;
     color: #fff;
