@@ -138,6 +138,7 @@ header img {
     width: 25%;
     display: inline-block;
     margin-left: 10%;
+    vertical-align: top;
 }
 /* .img-responsive {
     border-radius: 2em;
@@ -257,13 +258,18 @@ section.success.container {
 .col-lg-offset-4 {
     margin-left: 4rem;
 }
+.col-lg-offset-2 {
+    margin-left: 2rem;
+}
 .col-1 {
     display: inline-block;
     width: 68%;
+    vertical-align: top;
 }
 .col-2 {
     display: inline-block;
-    width: 34%;
+    width: 31%;
+    vertical-align: top;
 }
 
 .col-lg-23 {
