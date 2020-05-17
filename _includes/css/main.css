@@ -338,8 +338,11 @@ section.success.container {
 .portfolio-description {
     padding: 1.5rem;
     background-color: #fff;
+
     color: rgb({{ site.color.primary }});
     font-size: 15px; 
+    text-align: center;
+    
     display: block;
     position: relative;
     margin: 0 auto;
