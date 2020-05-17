@@ -72,6 +72,18 @@ ul {
     list-style: outside none none;
 }
 
+.small-button {
+    padding: 1rem;
+    border: solid 3px rgb({{ site.color.primary }});
+    background-color: rgb({{ site.color.primary }});
+    border-radius: 10px;
+    text-align: center;
+    width: 20%;
+    font-family: {{ site.fonts.secondary }};
+    font-size: 18px;
+    color: #fff;
+}
+
 /* hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
