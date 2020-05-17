@@ -41,7 +41,7 @@ h6 {
 
 body {
     font-family: {{ site.fonts.body }};
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.42857143;
     background-color: #ffffff;
 }
@@ -54,10 +54,13 @@ body {
 
 .subtext {
     font-family: {{ site.fonts.primary }};
-    /* font-family: {{ site.fonts.secondary }}; */
     color: rgb({{ site.color.primary }});
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 575;
+}
+
+ul {
+    list-style: outside none none;
 }
 
 /* hr.star-light,
@@ -242,12 +245,20 @@ section.success.container {
     text-align: left;
 }
 
-.col-lg-offset-2 {
+.col-lg-offset-4 {
     margin-left: 4rem;
+}
+.col-1 {
+    display: inline-block;
+    width: 68%;
+}
+.col-2 {
+    display: inline-block;
+    width: 34%;
 }
 
 .col-lg-23 {
-    width: 70%;
+    display: inline-block;
     position: relative;
     min-height: 1px;
     padding-left: 15px;
