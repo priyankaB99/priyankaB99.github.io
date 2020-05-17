@@ -335,6 +335,16 @@ section.success.container {
     right: 0;
     margin: 0 0 15px;
 }
+.portfolio-description {
+    padding: 1.5rem;
+    background-color: #fff;
+    color: rgb({{ site.color.primary }});
+    font-size: 15px; 
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
 
 #portfolio .portfolio-item .portfolio-link {
     display: block;
