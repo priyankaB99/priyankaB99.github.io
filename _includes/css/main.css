@@ -74,6 +74,7 @@ ul {
 
 .small-button {
     padding: 1rem;
+    margin-top: 2rem;
     border: solid 3px rgb({{ site.color.primary }});
     background-color: rgb({{ site.color.primary }});
     border-radius: 10px;
