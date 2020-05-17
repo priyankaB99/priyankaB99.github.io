@@ -165,7 +165,6 @@ header img {
 }
 header .intro-text .name {
     font-family: {{ site.fonts.primary }};
-    font-size: 3rem;
     font-weight: 600;
     letter-spacing: 2px;
 }
@@ -181,11 +180,11 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 8rem;
     }
 
     header .intro-text .skills {
-        font-size: 1.9em;
+        font-size: 3rem;
         color: rgb(145, 145, 145);
     }
 }
