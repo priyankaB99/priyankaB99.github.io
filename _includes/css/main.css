@@ -99,10 +99,10 @@ hr.star-primary {
     /* #{{ site.color.secondary }}; */
 }
 
-hr.star-primary:after {
+/* hr.star-primary:after {
     color: rgb(4, 25, 56);
     background-color: #fff;
-} */
+} */ */
 
 .img-centered {
     margin: 0 auto;
@@ -118,7 +118,7 @@ header .container {
     padding-bottom: 50px;
 }
 .intro {
-    font-size: 1em;
+    font-size: 2rem;
     color: rgb(100, 255, 218);
     font-family: {{ site.fonts.secondary }};
 }
@@ -218,7 +218,7 @@ header .intro-text .skills {
     outline: 0;
 } */
 
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav > li > a:hover, .navbar-brand:hover {
     color: #ffff;
     font-weight: bold;
 }
