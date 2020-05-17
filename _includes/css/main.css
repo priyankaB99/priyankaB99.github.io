@@ -152,9 +152,6 @@ header img {
     margin-left: 10%;
     vertical-align: top;
 }
-.img-responsive {
-    border-radius: 2em;
-}
 .intro-text {
     width: 56%;
     display: inline-block;
