@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "../mail/contact_me.php",
                 type: "POST",
                 data: {
                     name: name,
@@ -26,6 +26,11 @@ $(function() {
                     email: email,
                     message: message
                 },
+                headers: {
+                    'Access-Control-Allow-Origin': '*',
+                    'Access-Control-Allow-Methods': 'POST',
+                    "Access-Control-Allow-Headers": "X-Requested-With"
+                    },
                 cache: false,
                 success: function() {
                     // Success message
