@@ -4,6 +4,15 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ /*
+To do:
+- make that the nav disappears as scroll down
+- add a button in header to view more or something
+ */
+
+
+
+
  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
@@ -206,9 +215,9 @@ header .intro-text .skills {
     color: rgb(100, 255, 218);
 }
 
-.navbar a:focus {
+/* .navbar a:focus {
     outline: 0;
-}
+} */
 
 .navbar .navbar-nav {
     letter-spacing: 1px;
