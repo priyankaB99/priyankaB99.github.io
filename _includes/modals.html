@@ -14,9 +14,9 @@
                         <div class="modal-body">
                             <h2>{{ post.name }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <img src="img/portfolio/{{ post.img }}" class="img-focus img-responsive img-centered" alt="{{ post.alt }}">
                             {% if post.link %}
-                                <strong>View Project </strong><a href="{{ post.link }}"> HERE </a>
+                                <strong>View Project <a href="{{ post.link }}"> HERE </a></strong>
                             {% endif %}
                             {% if post.description %}
                                 <p>{{ post.description }}</p>

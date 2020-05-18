@@ -354,6 +354,9 @@ section.success.container {
 .img-responsive {
     height: 23rem;
 }
+.img-focus {
+    height: auto;
+}
 .portfolio-description {
     padding: 1.5rem;
     background-color: #fff;
@@ -366,6 +369,7 @@ section.success.container {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    min-height: 7.3rem;
 }
 
 #portfolio .portfolio-item .portfolio-link {

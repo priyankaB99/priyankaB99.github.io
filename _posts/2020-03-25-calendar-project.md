@@ -5,7 +5,7 @@ modal-id: 1
 date: 2020-03-25
 img: calendar-project.jpg
 alt: calendar project
-project-date: March 25
+project-date: March 2020
 client: WashU CSE 330S
 client-link: 
 category: Web Development

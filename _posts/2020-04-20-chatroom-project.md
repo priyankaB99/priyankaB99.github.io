@@ -1,11 +1,11 @@
 ---
 name: Multiroom Chat Server
 layout: default
-modal-id: 1
+modal-id: 2
 date: 2020-04-20
 img: chatroom-project.jpg
 alt: chatroom project
-project-date: April 20
+project-date: April 2020
 client: WashU CSE 330S
 client-link: 
 category: Web Development
