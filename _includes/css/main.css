@@ -11,8 +11,6 @@ To do:
  */
 
 
-
-
  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
@@ -352,6 +350,9 @@ section.success.container {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+}
+.img-responsive {
+    height: 23rem;
 }
 .portfolio-description {
     padding: 1.5rem;
