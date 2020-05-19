@@ -105,6 +105,9 @@ ul {
     color: #fff;
 }
 
+.text-true-center {
+    text-align: center;
+}
 /* hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
