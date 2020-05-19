@@ -48,21 +48,21 @@ fonts:
 footer:
   copyright: Priyanka Iyer
   location: Location
-  social: Around the Web
+  social: Follow Me
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
+  # - title: facebook
+  #   url: 
+  # - title: stack-overflow
+  #   url: http://stackoverflow.com/questions/tagged/jekyll
   # - title: bitbucket
   #   url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/priyankaB99
+    url: https://github.com/priyankaB99
+  - title: linkedin
+    url: https://www.linkedin.com/in/priyanka-i-wustl/
 
 # Postal address (add as many lines as necessary)
 address:
