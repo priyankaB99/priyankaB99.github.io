@@ -246,6 +246,12 @@ header .intro-text .skills {
     background-color: rgba({{ site.color.primary }}, 0.795);
 }
 
+.navbar-fixed-top .navbar-collapse {
+    padding: 5px 0;
+}
+.navbar-header {
+    padding: 5px 0;
+}
 .nav > li {
     margin: 0 .5rem;
 }

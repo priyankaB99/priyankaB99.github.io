@@ -3,7 +3,7 @@ name: Community Study With Me Website
 layout: default
 modal-id: 3
 date: 2020-05-01
-img: study-with-me-project.jpg
+img: study-with-me-project.JPG
 alt:  study with me project
 project-date: May 2020
 client: WashU CSE 330S

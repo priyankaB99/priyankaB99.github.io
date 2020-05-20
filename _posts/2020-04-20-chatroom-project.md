@@ -3,7 +3,7 @@ name: Multiroom Chat Server
 layout: default
 modal-id: 2
 date: 2020-04-20
-img: chatroom-project.jpg
+img: chatroom-project.JPG
 alt: chatroom project
 project-date: April 2020
 client: WashU CSE 330S
