@@ -20,7 +20,7 @@ body {
 }
 
 p {
-    font-size: 16px;
+    font-size: 17px;
 }
 
 p.small {
@@ -62,7 +62,7 @@ body {
 .subtext {
     font-family: {{ site.fonts.primary }};
     color: rgb({{ site.color.primary }});
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 575;
 }
 
@@ -297,6 +297,7 @@ section.success.container {
 }
 .text-center {
     text-align: left;
+    margin-bottom: 3rem;
 }
 
 .col-lg-offset-4 {
@@ -377,7 +378,7 @@ section.success.container {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 350px;
     min-height: 7.3rem;
 }
 
@@ -385,7 +386,7 @@ section.success.container {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 350px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
