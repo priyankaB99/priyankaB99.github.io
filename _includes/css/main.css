@@ -20,7 +20,7 @@ body {
 }
 
 p {
-    font-size: 19px;
+    font-size: 17px;
     margin-bottom: 20px;
 }
 
@@ -49,7 +49,7 @@ h6 {
 
 body {
     font-family: {{ site.fonts.body }};
-    font-size: 19px;
+    font-size: 17px;
     line-height: 1.42857143;
     background-color: #ffffff;
 }
@@ -71,23 +71,28 @@ ul {
     list-style: outside none none;
 }
 
-.small-button-border {
-    border: solid 1px rgb({{ site.color.secondary }});
-    border-radius: 10px;
-    text-align: center;
-    font-family: {{ site.fonts.secondary }};
-}
 .small-button-background {
     padding: 1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     border: solid 1px rgb({{ site.color.primary }});
     background-color: rgb({{ site.color.primary }});
     border-radius: 10px;
     text-align: center;
     font-family: {{ site.fonts.secondary }};
-    font-size: 22px;
+    font-size: 18px;
     color: #fff;   
 }
+/* .small-button-whitebackground {
+    padding: 1rem;
+    margin-top: 2rem;
+    border: solid 1px #fff;
+    background-color: rgb({{ site.color.primary }});
+    border-radius: 10px;
+    text-align: center;
+    font-family: {{ site.fonts.secondary }};
+    font-size: 22px;
+    color: #fff;  
+} */
 
 .big-button-background {
     padding: 2rem 3rem;
@@ -106,6 +111,12 @@ ul {
     background-color: rgb({{ site.color.primary }});
     color: #fff;
 }
+
+/* .small-button-whitebackground:hover, small-button-whitebackground:focus  {
+    border: solid 1px #fff;
+    background-color: #fff;
+    color: rgb({{ site.color.primary }});
+} */
 
 .text-true-center {
     text-align: center;
@@ -200,8 +211,8 @@ header .intro-text .skills {
 
 @media(min-width:783px) {
     header .container {
-        padding-top: 150px;
-        padding-bottom: 50px;
+        padding-top: 175px;
+        padding-bottom: 75px;
     }
 
     header .intro-text .name {
@@ -303,7 +314,7 @@ section.success.container {
 }
 .text-center-bottom {
     text-align: left;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
 }
 
 .col-lg-offset-4 {
@@ -664,13 +675,18 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 
-#blog {
+#portfolio {
     background-color: rgb({{ site.color.primary }});
     color: #fff;
 }
 
 .navbar-nav>.active>a {
     background-color: #{{ site.color.secondary-dark }} !important;
+}
+
+#blog {
+    background-color: rgb({{ site.color.primary }});
+    color: #fff;
 }
 
 /* Fix modal mouse wheel issues */
