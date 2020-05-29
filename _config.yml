@@ -53,6 +53,8 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: goodreads
+    url: https://www.goodreads.com/user/show/6871984-priyanka-iyer
   - title: facebook
     url: https://www.facebook.com/profile.php?id=100007437138991
   # - title: stack-overflow
