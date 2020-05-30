@@ -16,10 +16,10 @@
         </article>
         <div class="post-navigation">
             {% if page.previous.url %}
-            <a class="prev" href="{{page.previous.url}}"><i class='fa fa-arrow-left' style="color:rgb(7, 41, 92);"></i> {{page.previous.title}}</a>
+            <a class="prev" href="{{page.previous.url}}"><i class='fa fa-arrow-left' style="color:rgb(7, 41, 92);"></i> {{page.previous.name}}</a>
             {% endif %}
             {% if page.next.url %}
-            </i><a class="next" href="{{page.next.url}}">{{page.next.title}} <i class='fa fa-arrow-right' style="color:rgb(7, 41, 92);"></i></a>
+            </i><a class="next" href="{{page.next.url}}">{{page.next.name}} <i class='fa fa-arrow-right' style="color:rgb(7, 41, 92);"></i></a>
             {% endif %}
         </div>  
     </div>
