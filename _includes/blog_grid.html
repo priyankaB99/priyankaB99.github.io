@@ -7,9 +7,20 @@
                 <!-- <hr class="star-light"> -->
             </div>
         </div>
-        <div class="row col-lg-offset-4">
+        <div class="col-50">
+            <div class="row col-lg-23">
+                {% for post in site.blogs %}
+                <div class="col-lg-offset-4">
+                    <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.name }}</a></p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="col-50">
             {% for post in site.blogs %}
-                
+            <div class="row col-lg-23">
+                    hi
+            </div>
             {% endfor %}
         </div>
         <div class="row col-lg-12">

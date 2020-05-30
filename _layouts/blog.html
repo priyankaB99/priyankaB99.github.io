@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body id="page-top" class="index">
+    {% include nav.html %}
+
+    <div class="blog-content">
+        <article class="article">
+            <h1>{{ page.name }}</h1>
+            <div class="date">
+                Written on {{ page.date | date: "%B %e, %Y" }}
+            </div>
+            <div class="entry">
+                {{ content }}
+            </div>
+        </article>
+    </div>
+
+    {% include footer.html %}
+    {% include js.html %}
+    </body>
+</html>

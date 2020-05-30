@@ -342,6 +342,11 @@ section.success.container {
     width: 31%;
     vertical-align: top;
 }
+.col-50 {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
 
 .col-lg-23 {
     display: inline-block;
