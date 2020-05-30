@@ -8,6 +8,9 @@
 To do:
 - make that the nav disappears as scroll down
 - add a button in header to view more or something
+- make mobile view much better
+- make blog list printing better
+- add previous post button in post view
  */
 
 
@@ -746,8 +749,14 @@ hr {
     color: gray;
     margin-bottom: 1rem;
 }
-.blog-entry, .date, .blog-title {
+.blog-entry, .blog-title {
     margin: 3rem 4rem;
+}
+.blog-title {
+    margin-bottom: 0;
+}
+.date {
+    margin: 2rem 4rem;
 }
 .blog-entry > p {
     font-size: 16px;  
