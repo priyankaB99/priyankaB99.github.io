@@ -206,6 +206,22 @@ header .intro-text .skills {
     font-size: 1.7rem;
 }
 
+.container2 {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media(min-width:768px){
+    .container2{width:750px;}
+}
+@media(min-width:992px){
+    .container2{width:970px;}
+}
+@media(min-width:1200px){
+    .container2{width:1170px;}
+}
+
 @media(min-width:783px) {
     header .container, header .container2 {
         padding-top: 175px;
