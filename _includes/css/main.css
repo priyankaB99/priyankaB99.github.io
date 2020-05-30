@@ -780,7 +780,6 @@ hr {
 .post-navigation .prev {
     display: block;
     width: 50%;
-    float: left;
 }
 
 .post-navigation .next {
