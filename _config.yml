@@ -53,18 +53,20 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: goodreads
-    url: https://www.goodreads.com/user/show/6871984-priyanka-iyer
-  - title: facebook
-    url: https://www.facebook.com/profile.php?id=100007437138991
   # - title: stack-overflow
   #   url: http://stackoverflow.com/questions/tagged/jekyll
   # - title: bitbucket
   #   url: http://bitbucket.org/jekyll
-  - title: github
-    url: https://github.com/priyankaB99
   - title: linkedin
     url: https://www.linkedin.com/in/priyanka-i-wustl/
+  - title: github
+    url: https://github.com/priyankaB99
+  - title: goodreads
+    url: https://www.goodreads.com/user/show/6871984-priyanka-iyer
+  - title: facebook
+    url: https://www.facebook.com/profile.php?id=100007437138991
+  - title: instagram
+    url: https://www.instagram.com/pripra25/
 
 # Postal address (add as many lines as necessary)
 address:
