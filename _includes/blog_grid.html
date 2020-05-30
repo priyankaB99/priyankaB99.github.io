@@ -11,8 +11,8 @@
             <hr class="col-lg-offset-4">
             {% for post in site.blogs %}
             <div class="row col-lg-23">
-                <div class="col-lg-offset-4">
-                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.name }}</a>
+                <div class="col-lg-offset-4 blog-list-item">
+                    <div class="blog-list-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.name }}</a></div>
                     <date class="blog-list-date">{{ post.date | date: "%b %e, %Y" }}</date>
                 </div>
             </div>

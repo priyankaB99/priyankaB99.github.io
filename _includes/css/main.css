@@ -715,10 +715,17 @@ hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+.blog-list-item {
+    margin-bottom: 1rem;
+}
+.blog-list-title {
+    display: inline-block;
+    width: 425px;
+}
 .blog-list-date {
+    display: inline-block;
     font-size: 13px;
     color: gray;
-    margin-left: 140px;
 }
 
 #blog-post-page {
