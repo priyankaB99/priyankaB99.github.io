@@ -260,6 +260,10 @@ header .intro-text .skills {
     background-color: rgba({{ site.color.primary }}, 0.795);
 }
 
+.navbar-blog-view {
+    background-color: rgba({{ site.color.primary }}, 1);
+}
+
 .navbar-fixed-top .navbar-collapse {
     padding: 2px 0;
 }
@@ -272,6 +276,14 @@ header .intro-text .skills {
 
 .navbar-default .navbar-brand,.navbar-default .navbar-nav > li > a {
     color: rgb(100, 255, 218);
+}
+
+.navbar-blog-view .navbar-brand,.navbar-blog-view .navbar-nav > li > a {
+    color: rgb(100, 255, 218);
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: rgb({{ site.color.primary }});
 }
 
 .navbar a:focus {
@@ -291,7 +303,12 @@ header .intro-text .skills {
     font-weight: bold;
 }
 
-.navbar-default,
+.navbar-blog-view .navbar-nav > li > a:hover, .navbar-brand:hover {
+    color: #ffff;
+    font-weight: bold;
+}
+
+.navbar-default, navbar-blog-view, 
 .navbar-inverse {
     border: 0;
 }
@@ -694,7 +711,40 @@ footer .footer-below {
     background-color: rgb({{ site.color.primary }});
     color: #fff;
 }
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.blog-list-date {
+    font-size: 13px;
+    color: gray;
+    margin-left: 140px;
+}
 
+#blog-post-page {
+    background-color: rgb({{ site.color.primary }});
+}
+
+.blog-content {
+    margin: 10rem 14rem;
+    padding: 2rem 3rem;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+.blog-title {
+    font-weight: bolder;
+}
+.date {
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 1rem;
+}
+.blog-entry, .date, .blog-title {
+    margin: 3rem 4rem;
+}
+.blog-entry > p {
+    font-size: 16px;  
+}
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
 .modal.fade.in {

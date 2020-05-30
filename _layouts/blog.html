@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
     {% include head.html %}
-    <body id="page-top" class="index">
-    {% include nav.html %}
+    <body id="blog-post-page">
+    {% include blog_nav.html %}
 
     <div class="blog-content">
         <article class="article">
-            <h1>{{ page.name }}</h1>
+            <h2 class="blog-title">{{ page.name }}</h2>
             <div class="date">
-                Written on {{ page.date | date: "%B %e, %Y" }}
+                <em>{{ page.date | date: "%B %e, %Y" }}</em>
             </div>
-            <div class="entry">
+            <div class="blog-entry">
                 {{ content }}
             </div>
         </article>
+        <div class="previous-blog-post"><a href=""></a></div>
     </div>
 
     {% include footer.html %}
