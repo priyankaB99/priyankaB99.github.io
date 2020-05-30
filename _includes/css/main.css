@@ -393,6 +393,11 @@ section.success.container {
         margin-top: 2rem;
         width: 95%;
         vertical-align: top;
+    }
+    .col-50 {
+        display: inline-block;
+        width: 95%;
+        vertical-align: top;
     }  
 }
 
