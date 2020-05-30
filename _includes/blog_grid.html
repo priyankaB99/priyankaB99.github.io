@@ -11,8 +11,8 @@
             <hr class="col-lg-offset-4">
             {% for post in site.blogs limit:3 %}
             {% if post.category == 'general' %}
-            <div class="row col-lg-23">
-                <div class="col-lg-offset-4 blog-list-item">
+            <div class="row col-lg-23 full-span">
+                <div class="col-lg-offset-4 blog-list-item full-span">
                     <div class="blog-list-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.name }}</a></div>
                     <date class="blog-list-date">{{ post.date | date: "%b %e, %Y" }}</date>
                 </div>
