@@ -8,8 +8,6 @@
 To do:
 - make that the nav disappears as scroll down
 - add a button in header to view more or something
-- make blog list printing better
-- add previous post button in post view
  */
 
 
@@ -765,7 +763,7 @@ hr {
     color: gray;
     margin-bottom: 1rem;
 }
-.blog-entry, .blog-title {
+.blog-entry, .blog-title, .post-navigation {
     margin: 3rem 4rem;
 }
 .date {
@@ -774,6 +772,22 @@ hr {
 .blog-entry > p {
     font-size: 16px;  
 }
+.post-navigation > a {
+    color: rgb({{ site.color.primary }});
+    font-weight: bold;
+    width: auto;
+}
+.post-navigation .prev {
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+.post-navigation .next {
+    display: block;
+    text-align: right;
+}
+
 @media(max-width: 767px) {
     .blog-title {
         font-weight: bolder;
