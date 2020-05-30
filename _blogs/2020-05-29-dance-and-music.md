@@ -2,7 +2,7 @@
 name: Indian Classical Dance and Music
 layout: blog
 date: 2020-05-29
-category: general
+category: about
 ---
 When I first began practicing Bharathanatyam, I never could have predicted that I'd be learning it still--14 years later--as a young woman profoundly transformed by every tap of my foot, stretch of my arm, and bend of my torso. Bharathanatyam has taught me discipline--both physically and mentally. Practicing and performing classical dance is a challenge because every step, everymovement, and every expression is calculated. It is often that I have stared at the mirror, willing my muscles and body to get it right. Mentally, dancing is a form of yoga and concentration. There is power that is derived from executing the perfect 90 degree angles and maintaining perfectly parallel movements. When I do it right, I feel not only stronger, but more confident and resilient. By forcing me to master my body, dancing allows me to master my mind. Dancing has made me prize grace and strength in my interactions and character. I approach life with my shoulders back and head held high, eager to disseminate kindess, consciousness, and respect.
 
