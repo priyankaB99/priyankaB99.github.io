@@ -1,10 +1,9 @@
 ---
-name: Grand Gestures
+name: Perfect Strokes
 layout: blog
 date: 2020-05-21
-category: general
+category: draft
 ---
-Sometimes it feels like our world is constructed through grand gestures. 
 
 God, if you're into that sort of thing, may have drafted this universe in a series of broad, perfect strokes that never needed retouching. In this theoretical reality, the design of the trees, the fire ant, the geometry of the planets, were all perfect on the first try. Aah. 
 
