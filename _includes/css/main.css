@@ -168,9 +168,9 @@ header {
     background-color: rgb({{ site.color.primary }});
 }
 
-header .container, header .container2{
-    padding-top: 100px;
-    padding-bottom: 50px;
+header .container {
+    padding-top: 175px;
+    padding-bottom: 75px;
 }
 .intro {
     font-size: 2rem;
@@ -194,47 +194,43 @@ header img {
     vertical-align: bottom;
     text-align: left;
 }
-
 header .intro-text .name {
-    font-family: {{ site.fonts.primary }};
-    font-weight: 600;
-    letter-spacing: 2px;
-    font-size: 3.5rem;
+    font-size: 7rem;
 }
+
 header .intro-text .skills {
-    font-weight: 300;
-    font-size: 1.7rem;
+    font-size: 3rem;
+    color: rgb(145, 145, 145);
 }
 
-.container2 {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-@media(min-width:768px){
-    .container2{width:750px;}
-}
-@media(min-width:992px){
-    .container2{width:970px;}
-}
-@media(min-width:1200px){
-    .container2{width:1170px;}
-}
-
-@media(min-width:783px) {
-    header .container, header .container2 {
-        padding-top: 175px;
-        padding-bottom: 75px;
+@media(max-width:767px) {
+    header .container{
+        padding-top: 80px;
+        padding-bottom: 30px;
     }
-
+    .intro-text {
+        width: 85%;
+        margin-left: 7.5%;
+        vertical-align: bottom;
+        text-align: center;
+    }
+    header .intro-text .intro {
+        font-size: 1.5rem;
+    }
     header .intro-text .name {
-        font-size: 7rem;
-    }
-
-    header .intro-text .skills {
+        font-family: {{ site.fonts.primary }};
+        font-weight: 600;
+        letter-spacing: 2px;
         font-size: 3rem;
-        color: rgb(145, 145, 145);
+    }
+    header .intro-text .skills {
+        font-weight: 300;
+        font-size: 1.5rem;
+        margin-top: 1.2rem;
+    }
+    .img {
+        width: 50%;
+        margin-left: 25%;
     }
 }
 
@@ -351,7 +347,7 @@ section.success.container {
 }
 
 .col-lg-offset-4 {
-    margin-left: 4rem;
+    margin-left: 0rem;
 }
 .col-lg-offset-2 {
     margin-left: 2rem;
@@ -387,11 +383,10 @@ section.success.container {
     padding-left: 15px;
     padding-right: 15px;
 }
-@media(max-width:992px) {
+@media(max-width:1170px) {
     section {
-        padding: 75px 0;
+        padding: 40px 0;
     }
-
     section.first {
         padding-top: 75px;
     }
@@ -402,17 +397,45 @@ section.success.container {
     }
     .col-2 {
         display: inline-block;
-        margin-top: 2rem;
+        margin-top: 3rem;
         width: 95%;
         vertical-align: top;
     }
     .col-50 {
         display: inline-block;
-        width: 95%;
+        width: 49%;
         vertical-align: top;
+    }
+    .col-lg-offset-2 {
+        margin-left: 0;
     }  
 }
-
+@media(max-width:767px) {
+    .col-sm-4 {
+        padding-left: 0;
+    }
+    .col-50 {
+        display: inline-block;
+        width: 95%;
+        vertical-align: top;
+    }
+}
+@media(max-width:767px) {
+    section h2 {
+        margin: 0;
+        font-size: 2em;
+    }
+    .subtext {
+        font-size: 15px;
+    }
+    body {
+        font-size: 14px;
+    }
+    .small-button-background, .big-button-background {
+        font-size: 17px;
+        letter-spacing: 1px; 
+    }
+}
 #portfolio {
     background-color: rgb({{ site.color.primary }});
     color: #fff;
@@ -743,18 +766,22 @@ hr {
 }
 .blog-list-title {
     display: inline-block;
-    width: 80%;
+    width: 82%;
+    font-size: 18px;
 }
 .blog-list-date {
     display: inline-block;
-    font-size: 13px;
+    font-size: 14px;
     color: gray;
 }
 
-@media(max-width: 767px) {
+@media(max-width: 992px) {
     hr {
         display: none;
     } 
+    .blog-list-title {
+        width: 100%;
+    }
 }
 
 #blog-post-page {
