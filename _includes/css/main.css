@@ -750,6 +750,12 @@ footer .footer-below {
     background-color: #{{ site.color.secondary-dark }} !important;
 }
 
+.art-pictures {
+    width: 160px;
+    height: auto;
+    margin: .5rem;
+}
+
 #blog {
     background-color: rgb({{ site.color.primary }});
     color: #fff;
@@ -859,3 +865,4 @@ hr {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
