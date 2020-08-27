@@ -57,6 +57,8 @@ social:
   #   url: http://stackoverflow.com/questions/tagged/jekyll
   # - title: bitbucket
   #   url: http://bitbucket.org/jekyll
+  - title: email
+    url: mailto:priyanka.iyr@gmail.com
   - title: linkedin
     url: https://www.linkedin.com/in/priyanka-i-wustl/
   - title: github
@@ -70,8 +72,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 
+  - line: 
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'

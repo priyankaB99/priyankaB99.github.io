@@ -173,7 +173,7 @@ header .container {
     padding-bottom: 75px;
 }
 .intro {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: rgb(100, 255, 218);
     font-family: {{ site.fonts.secondary }};
 }
@@ -345,7 +345,9 @@ section.success.container {
     text-align: left;
     margin-bottom: 0rem;
 }
-
+.extra-enter {
+    margin-top: 1.5rem;
+}
 .col-lg-offset-4 {
     margin-left: 0rem;
 }
@@ -822,7 +824,7 @@ hr {
     margin: 2rem 4rem;
 }
 .blog-entry > p {
-    font-size: 16px;  
+    font-size: 18px;  
 }
 .post-navigation > a {
     color: rgb({{ site.color.primary }});
