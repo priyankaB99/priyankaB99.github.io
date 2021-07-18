@@ -16,11 +16,16 @@
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-focus img-responsive img-centered" alt="{{ post.alt }}">
                             {% if post.link %}
-                                <strong>View Project <a href="{{ post.link }}"> HERE </a></strong>
+                                <strong>View Project <a href="{{ post.link }}"> here </a></strong>
                             {% endif %}
-                            {% if post.description %}
-                                <p>{{ post.description }}</p>
-                            {% endif %}
+                            <div class="text-left">
+                                {% if post.description %}
+                                    <p>{{ post.description }}</p>
+                                    <!-- <!-- {% if content %} -->
+                                        <p>{{ post.content }}</p>
+                                    <!-- {% endif %} -->
+                                {% endif %}
+                            </div>
                             <ul class="list-inline item-details">
                                 {% if post.client %}
                                     <li>Client:

@@ -7,8 +7,8 @@ img: wics_website_img.JPG
 alt: WashU WiCS Website
 project-date: May 2020
 client: WashU Women in Computer Science
-client-link: washuwics.github.io/
-link: washuwics.github.io/
+client-link: https://washuwics.github.io/
+link: https://washuwics.github.io/
 category: Web Development
 description: Built WiCS website using Jekyll, Javascript, HTML, and CSS.
 ---
