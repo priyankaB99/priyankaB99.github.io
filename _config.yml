@@ -57,17 +57,17 @@ social:
   #   url: http://stackoverflow.com/questions/tagged/jekyll
   # - title: bitbucket
   #   url: http://bitbucket.org/jekyll
-  - title: email
+  - title: fas fa-envelope-open-text
     url: mailto:priyanka.iyr@gmail.com
-  - title: linkedin
+  - title: fab fa-linkedin
     url: https://www.linkedin.com/in/priyanka-i-wustl/
-  - title: github
+  - title: fab fa-github
     url: https://github.com/priyankaB99
-  - title: goodreads
+  - title: fab fa-goodreads
     url: https://www.goodreads.com/user/show/6871984-priyanka-iyer
-  - title: facebook
+  - title: fab fa-facebook
     url: https://www.facebook.com/profile.php?id=100007437138991
-  - title: instagram
+  - title: fab fa-instagram
     url: https://www.instagram.com/pripra25/
 
 # Postal address (add as many lines as necessary)
