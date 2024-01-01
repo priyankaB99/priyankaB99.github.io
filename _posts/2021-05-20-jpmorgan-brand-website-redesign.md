@@ -12,4 +12,3 @@ link: https://github.com/priyankaB99/jpmorgan_redesign
 category: Web Development
 description: Brand redesign of JPMorgan Chase & Co.'s website with HTML, CSS, and Bootstrap. Project focus - Bootstrap proficiency and website design principles
 ---
-hello

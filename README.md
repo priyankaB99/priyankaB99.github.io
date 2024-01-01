@@ -22,6 +22,8 @@ description: The description of the project
 ---
 ```
 
+Type `bundle exec jekyll serve` in command line to serve locally
+
 ## Demo
 View this jekyll theme in action [here](https://jeromelachaud.com/freelancer-theme)
 

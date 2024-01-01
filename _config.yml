@@ -1,12 +1,11 @@
 # Site settings
 title: Priyanka Iyer
 email: priyanka.iyr@gmail.com
-url: https://priyankaiyer.com
-description: "Priyanka Iyer. WashU CS, developer, singer, dancer, reader"
+url: https://priyankaiyer.me
+description: "Priyanka Iyer. Consulting, software developer, singer, dancer, reader"
 keywords: "priyanka iyer, priyanka, consulting, computer science, washu, washington university in st. louis, software, development, no-code, Adalo, coding, full stack, finance, markets, women in computer science, woman, history, writing, dance, bharathanatyam, music, indian, classical music, franklin wi, st louis mo, tucson az, wisconsin, arizona"
 skills: "I'm a consultant, software developer, singer, and dancer."
 meta_author: Iyer Priyanka
-resume: "Priyanka_Iyer_Resume.pdf"
 # Google webmaster tools
 google_verify:
 
@@ -61,7 +60,7 @@ social:
     url: mailto:priyanka.iyr@gmail.com
     name: Email
   - title: fab fa-linkedin
-    url: https://www.linkedin.com/in/priyanka-i-wustl/
+    url: https://www.linkedin.com/in/priyanka-i/
     name: LinkedIn
   - title: fab fa-github
     url: https://github.com/priyankaB99
