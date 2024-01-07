@@ -66,6 +66,7 @@ body {
 
 ul {
     list-style: outside none none;
+    padding: 0;
 }
 
 .small-button-background {
@@ -79,17 +80,6 @@ ul {
     font-size: 18px;
     color: #fff;   
 }
-/* .small-button-whitebackground {
-    padding: 1rem;
-    margin-top: 2rem;
-    border: solid 1px #fff;
-    background-color: rgb({{ site.color.primary }});
-    border-radius: 10px;
-    text-align: center;
-    font-family: {{ site.fonts.secondary }};
-    font-size: 22px;
-    color: #fff;  
-} */
 
 .big-button-background {
     padding: 2rem 3rem;
@@ -109,55 +99,9 @@ ul {
     color: #fff;
 }
 
-/* .small-button-whitebackground:hover, small-button-whitebackground:focus  {
-    border: solid 1px #fff;
-    background-color: #fff;
-    color: rgb({{ site.color.primary }});
-} */
-
 .text-true-center {
     text-align: center;
 }
-/* hr.star-light,
-hr.star-primary {
-    margin: 25px auto 30px;
-    padding: 0;
-    max-width: 250px;
-    border: 0;
-    border-top: solid 5px;
-    text-align: center;
-    overflow: visible;
-}
-
-hr.star-light:after,
-hr.star-primary:after {
-    content: "\f005";
-    display: inline-block;
-    position: relative;
-    top: -.8em;
-    padding: 0 .25em;
-    font-family: FontAwesome;
-    font-size: 2em;
-}
-
-hr.star-light {
-    border-color: #fff;
-}
-
-hr.star-light:after {
-    color: #fff;
-    background-color: rgb({{ site.color.primary }});
-}
-
-hr.star-primary {
-    border-color: rgb(4, 25, 56);
-    /* #{{ site.color.secondary }}; */
-}
-
-/* hr.star-primary:after {
-    color: rgb(4, 25, 56);
-    background-color: #fff;
-} */ */
 
 .img-centered {
     margin: 0 auto;
@@ -548,20 +492,6 @@ section.success.container {
     background: #fff;
 } */
 
-/* .form-button {
-    border: solid 1px rgb({{ site.color.primary }});
-    background-color: #fff;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 20px;
-    letter-spacing: 2px;
-    font-family: {{ site.fonts.secondary }};
-}
-.form-button:hover, .form-button:focus  {
-    border: solid 1px rgb({{ site.color.primary }});
-    background-color: rgb({{ site.color.primary }});
-    color: #fff;
-} */
 .form-control {
     height: 30px;
 }

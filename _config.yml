@@ -71,12 +71,6 @@ social:
   - title: fab fa-goodreads
     url: https://www.goodreads.com/user/show/6871984-priyanka-iyer
     name: Goodreads
-  - title: fab fa-facebook
-    url: https://www.facebook.com/profile.php?id=100007437138991
-    name: Facebook
-  - title: fab fa-instagram
-    url: https://www.instagram.com/pripra25/
-    name: Instagram
 
 # Postal address (add as many lines as necessary)
 address:

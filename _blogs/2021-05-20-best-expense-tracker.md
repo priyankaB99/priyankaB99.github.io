@@ -20,12 +20,8 @@ This tracker includes all 12 months of expense tracking as well a fun little gro
 
 ### Expense Tracker Template
 
-If you want a more step-by-step walk through, keep reading.
-
-#### Main Expense Tracker
-
 The Excel sheet is made up of 5 tabs; 4 of them cover each quarter of the year and the last one is a “grocery expenses” calculator.
 
 The image below is the first tab you will see, which covers January, February, and March expense tracking. Throughout the tracker, light green areas are where you can input information.
 
-***READ MORE ON [MEDIUM.COM](https://priyanka-iyer.medium.com/the-best-budget-expense-tracker-template-for-college-students-e7d5e75c526b)***
+**READ MORE ON [MEDIUM](https://priyanka-iyer.medium.com/the-best-budget-expense-tracker-template-for-college-students-e7d5e75c526b)**
